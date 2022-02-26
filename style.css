@@ -86,3 +86,10 @@ footer div {
 footer a {
   color: #024e76;
 }
+
+/* Hero Style Start */
+.hero{
+  background-image: url("/Users/vicky/Desktop/projects/run-buddy/assets/images/hero-bg.jpeg");
+  height: 600px;
+}
+/* Hero Style End */  
