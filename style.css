@@ -22,10 +22,7 @@ header a {
 }* {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
   box-sizing: border-box;
-=======
->>>>>>> 72d7b4cc0b9cc17c5aca11e7131381c217157b6d
 }
 body {
   /* more on this crazy alphanumerical value in a minute! */
@@ -65,7 +62,6 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
-<<<<<<< HEAD
 }
 
 footer {
@@ -130,27 +126,15 @@ footer a {
   width: 100%;
   margin-bottom: 15px;
 }
-=======
-}body {
-  /* more on this crazy alphanumerical value in a minute! */
-  color: #39a6b2;
-  font-family: Helvetica, Arial, sans-serif;
+.hero-form label {
+  margin: 0 5px;
 }
 
-/* apply styles to <header> */
-header {
-  padding: 20px 35px;
-  background-color: #39a6b2;
-}
-
-header h1 {
-  font-weight: bold;
-  font-size: 36px;
+.hero-form button {
   color: #fce138;
-  margin: 0;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
 }
-
-header a {
-  color: #fce138;
-}
->>>>>>> 72d7b4cc0b9cc17c5aca11e7131381c217157b6d
+/* HERO STYLES END */
