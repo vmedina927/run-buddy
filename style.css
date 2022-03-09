@@ -22,8 +22,47 @@ header {
 header h1 {
   font-weight: bold;
   margin: 0;
+<<<<<<< HEAD
   font-size: 36px;
   color: #fce138;
+=======
+}
+
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+/* apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #fce138;
+  display: flex;
+  justify-content: space-between;
+  flex: wrap;
+}
+
+.hero-cta{
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
+>>>>>>> feature/flexbox
 }
 
 header a {
@@ -60,7 +99,10 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+<<<<<<< HEAD
   width: 100%;
+=======
+>>>>>>> feature/flexbox
 }
 
 footer h2 {
@@ -86,12 +128,17 @@ section {
 
 /* HERO STYLES START */
 .hero {
+<<<<<<< HEAD
   background-image: url('./assets/images/hero-bg.jpeg');
+=======
+  background-image: url("./assets/images/hero-bg.jpeg");
+>>>>>>> feature/flexbox
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+<<<<<<< HEAD
 }
 
 .hero-cta {
@@ -107,6 +154,8 @@ section {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+=======
+>>>>>>> feature/flexbox
 }
 
 .hero-form {
@@ -149,6 +198,7 @@ section {
 } 
 /* HERO STYLES END */
 
+<<<<<<< HEAD
 
 /* SECTION TITLE STYLES START */
 .section-title {
@@ -172,16 +222,38 @@ section {
 
 /* WHAT WE DO STYLES */
 
+=======
+>>>>>>> feature/flexbox
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   margin: 0 auto;
+<<<<<<< HEAD
   font-size: 20px;
   text-align: center;
+=======
+  text-align: center; 
+}
+
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.steps {
+  background: #fce138;
+>>>>>>> feature/flexbox
 }
 /* WHAT YOU DO STYLES END */
 
+<<<<<<< HEAD
 
 /* WHAT YOU DO STYLES START */
 .steps { 
@@ -219,6 +291,27 @@ section {
 
 .step-img img {
   max-width: 100%;
+=======
+.step h3 {
+  color: #024e76;
+  font-size: 46px;
+  flex: 1 30%;
+}
+
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+
+.step-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .step-text {
@@ -230,6 +323,33 @@ section {
   font-size: 18px;
 }
 
+.step-text h4{
+  font-size: 26px;
+  line-height: 1.5;
+  color:#024e76;
+}
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+>>>>>>> feature/flexbox
+}
+
+.step-text {
+  flex: 12;
+}
+
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
+}
+
+<<<<<<< HEAD
 .step-text h4 {
   font-size: 26px;
   line-height: 1.5;
@@ -252,6 +372,21 @@ section {
   flex: 1;
   background: #024e76;
   color: #fce138;
+=======
+.trainer {
+  margin: 20px;
+  background: #024e76;
+  color: #fce138;
+  flex: 1;
+}
+
+.trainers {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+>>>>>>> feature/flexbox
 }
 
 .trainer img {
@@ -261,6 +396,17 @@ section {
 .trainer-bio {
   padding: 25px;
   line-height: 1.3;
+<<<<<<< HEAD
+=======
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+>>>>>>> feature/flexbox
 }
 
 .trainer-bio h3 {
@@ -343,6 +489,7 @@ section {
   color: #fce138;
 }
 
+<<<<<<< HEAD
 
 /* REACH OUT STYLES END */
 
@@ -355,6 +502,10 @@ section {
   text-align: right;
 }
 
+=======
+/* REACH OUT STYLES END */
+
+>>>>>>> feature/flexbox
 .flex-row {
   display: flex;
 }
