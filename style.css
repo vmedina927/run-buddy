@@ -21,9 +21,8 @@ header {
 
 header h1 {
   font-weight: bold;
-  font-size: 36px;
-  color: #fce138;
   margin: 0;
+
 }
 
 header a {
@@ -60,6 +59,7 @@ header h1 {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+
 }
 
 header a {
@@ -85,13 +85,18 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+/* HEADER / NAVBAR STYLES END */
+
+
+
+/* FOOTER STYLES START */
 footer {
   background: #fce138;
-  width: 100%;
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
 }
 
 footer h2 {
@@ -108,17 +113,25 @@ footer div {
 footer a {
   color: #024e76;
 }
+/* END FOOTER STYLES */
 
-/* Hero Style Start */
+/* STYLE ALL SECTION TAGS */
+section {
+  padding: 60px;
+}
+
+/* HERO STYLES START */
 .hero {
   background-image: url("./assets/images/hero-bg.jpeg");
+
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
+
 }
-/* Hero Style End */  
 
 .hero-form {
   border: 3px solid #024e76;
@@ -133,7 +146,6 @@ footer a {
   font-size: 24px;
   margin: 0;
 }
-
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -145,8 +157,9 @@ footer a {
   font-size: 16px;
   color: #024e76;
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 15px; 
 }
+
 .hero-form label {
   margin: 0 5px;
 }
@@ -157,14 +170,15 @@ footer a {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
-}
+} 
+/* HERO STYLES END */
 
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
-  font-size: 20px;
   margin: 0 auto;
+
   text-align: center; 
 }
 
@@ -181,7 +195,10 @@ footer a {
 
 .steps {
   background: #fce138;
+
 }
+/* WHAT YOU DO STYLES END */
+
 
 .step h3 {
   color: #024e76;
@@ -228,15 +245,18 @@ footer a {
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
+
 }
 
-.primary-border {
-  border-color: #fce138;
+.step-text {
+  flex: 12;
 }
 
-.secondary-border {
-  border-color: #39a6b2;
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
 }
+
 
 .trainer {
   margin: 20px;
@@ -251,6 +271,7 @@ footer a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
 
 .trainer img {
@@ -268,6 +289,7 @@ footer a {
 
 .text-right {
   text-align: right;
+
 }
 
 .trainer-bio h3 {
@@ -283,6 +305,7 @@ footer a {
 .trainer-bio p {
   font-size: 17px;
 }
+/* TRAINER STYLES END */
 
 /* REACH OUT STYLES START */
 .contact {
@@ -293,17 +316,22 @@ footer a {
   color: #fce138;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
 .contact-info iframe {
-  width: 400px;
   height: 400px;
 }
 
 .contact-info div {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 60px;
   color: white;
 }
 
@@ -312,19 +340,38 @@ footer a {
   font-size: 32px;
 }
 
-.contact-info p, 
-.contact-info address {
+.contact-info p, .contact-info address {
   margin: 20px 0;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
+}
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
 }
 
 .contact-info a {
   color: #fce138;
 }
 
-/* REACH OUT STYLES END */
 
 .flex-row {
   display: flex;
